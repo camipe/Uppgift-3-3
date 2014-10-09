@@ -3,11 +3,24 @@ GENERAL
 ****************************/
 body {
   margin: 0;
+  background-color: #EAE8D1;
+  color: #7A7065;
 }
 #container {
   width: 600px;
   margin: auto;
 }
+
+h1 {
+  font-family: 'Times New Roman', serif;
+  font-size: 1.2em;
+}
+
+p {
+  font-family: 'Verdana', serif;
+  font-size: 1em;
+}
+
 
 /***************************
 HEADER
