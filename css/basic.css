@@ -1,7 +1,9 @@
 /***************************
 GENERAL
 ****************************/
-
+body {
+  margin: 0;
+}
 #container {
   width: 600px;
   margin: auto;
@@ -13,7 +15,6 @@ HEADER
 #topbar {
   width: 600px;
   height: 220px;
-  float: right;
   background: #51473E url(pics/coffey.jpg)  no-repeat bottom center;
   background-size: 600px 200px;
   text-align: right;
@@ -23,9 +24,48 @@ HEADER
 /***************************
 NAVIGATION
 ****************************/
-#menu li {
-  display: inline;
+#menu {
+  text-align: left;
+  background-color: #51473E;
 }
+
+#menu ul{
+
+  padding: 10px 0 0;
+  margin-top: 0;
+  margin-left: 10px;
+
+}
+
+#menu li {
+  display: inline-block;
+}
+
+#menu a {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #EAE7D3;
+  background: #797067;
+  display: inline-block;
+}
+
+
+#menu a[href="#maincontent"] {
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
+}
+
+#menu a[href="#maincontent"]:focus{
+position:static;
+width:auto;
+height:auto;
+}
+
+
 
 /***************************
 CONTENT
