@@ -1,25 +1,49 @@
+/***************************
+GENERAL
+****************************/
+
 #container {
   width: 600px;
   margin: auto;
 }
 
+/***************************
+HEADER
+****************************/
 #topbar {
-  height: 20px;
+  width: 600px;
+  height: 220px;
   float: right;
+  background: #51473E url(pics/coffey.jpg)  no-repeat bottom center;
+  background-size: 600px 200px;
+  text-align: right;
+  color: #EAE7D3;
 }
 
+/***************************
+NAVIGATION
+****************************/
+#menu li {
+  display: inline;
+}
+
+/***************************
+CONTENT
+****************************/
 #maincontent {
   width: 350px;
   padding: 0px;
   float: left;
 }
 
-
 #subcontent {
   width: 220px;
   float: right;
 }
 
+/***************************
+FOOTER
+****************************/
 #bottomcontent {
   clear: both;
 }
