@@ -86,6 +86,9 @@ NAVIGATION
   font-size: 13px;
   font-weight: 100;
 }
+#menu a:hover {
+  background: #9C9085;
+}
 
 #menu a:first-letter {
   text-transform: uppercase;
