@@ -30,7 +30,11 @@ HEADER
   background: #51473E url(pics/coffey.jpg)  no-repeat bottom center;
   background-size: 600px 200px;
   text-align: right;
+  vertical-align: bottom;
   color: #EAE7D3;
+  font-size: 9.5px;
+  font-style: italic;
+  line-height: 20px;
 }
 
 /***************************
