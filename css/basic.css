@@ -19,6 +19,18 @@ h1 {
   font-family: Times, serif;
   font-size: 30px;
   font-weight: 100;
+  margin: 15px 0 15px;
+
+}
+
+h2 {
+  font-family: Times, serif;
+  font-size: 15px;
+}
+
+p {
+  line-height: 1.5em;
+  margin-bottom: 0;
 }
 
 /***************************
@@ -60,7 +72,7 @@ NAVIGATION
   background: #797067;
 }
 
-#menu li.active a{
+#menu .active a{
   color: #898075;
   background: #EAE8D1;
 }
@@ -106,6 +118,8 @@ CONTENT
   margin: 10px 10px 0;
   float: left;
 }
+
+
 
 #maincontent img{
   float: left;
