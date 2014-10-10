@@ -47,21 +47,28 @@ NAVIGATION
 
 #menu ul{
 
-  padding: 10px 0 0;
+  padding: 5px 0 0;
   margin-top: 0;
   margin-left: 10px;
+  font-size: 0;
 
 }
 
 #menu li {
   display: inline-block;
+  border-right: 1px solid #52473C;
+  background: #797067;
+}
+
+#menu li.active a{
+  color: #898075;
+  background: #EAE8D1;
 }
 
 #menu a {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 7px 15px;
   text-decoration: none;
-  background: #797067;
   color: #EAE7D3;
   font-family: 'Verdana', serif;
   font-size: 13px;
