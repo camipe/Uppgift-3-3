@@ -29,7 +29,7 @@ h2 {
 }
 
 p {
-  line-height: 1.5em;
+  line-height: 1.6em;
   margin-bottom: 0;
 }
 
@@ -142,12 +142,28 @@ CONTENT
   margin: 15px 0 20px 10px;
   font-size: 16px;
 }
+#subcontent h2 {
+  margin: 25px 0 0 10px;
+  font-weight: lighter;
+}
 
 #subcontent p {
-  font-size: 10px;
+  font-size: 9px;
   letter-spacing: 1px;
   line-height: 2;
   margin: 0 0 0 10px;
+}
+
+#subcontent ul {
+  list-style: none;
+  padding: 0;
+  margin: 5px 0 15px 10px;
+}
+
+#subcontent a {
+  color: #51473E;
+  font-size: 12px;
+  line-height: 1.5;
 }
 
 /***************************
@@ -155,7 +171,7 @@ FOOTER
 ****************************/
 #bottomcontent {
   clear: both;
-  font-size: 8px;
+  font-size: 9px;
   font-style: italic;
   padding: 0 0 15px 10px;
 }
