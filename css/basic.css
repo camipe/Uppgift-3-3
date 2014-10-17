@@ -68,13 +68,7 @@ NAVIGATION
 
 #menu li {
   display: inline-block;
-  border-right: 1px solid #52473C;
-  background: #797067;
-}
 
-#menu .active a{
-  color: #898075;
-  background: #EAE8D1;
 }
 
 #menu a {
@@ -85,9 +79,26 @@ NAVIGATION
   font-family: 'Verdana', serif;
   font-size: 13px;
   font-weight: 100;
+  border-top: 1px solid #837C73;
+  border-right: 1px solid #52473C;
+  background: #797067;
 }
+
+#menu .active a {
+  color: #898075;
+  background: #EAE8D1;
+  border-bottom: none;
+  top: 1px;
+  position: relative;
+  border-top: 1px solid #EAE8D1;
+}
+
 #menu a:hover {
   background: #9C9085;
+}
+
+#menu .active a:hover {
+  background: #EAE8D1;
 }
 
 #menu a:first-letter {
@@ -114,6 +125,9 @@ height:auto;
 /***************************
 CONTENT
 ****************************/
+#content {
+  border-top: 1px solid #fff;
+}
 
 #maincontent {
   width: 350px;
@@ -121,8 +135,6 @@ CONTENT
   margin: 10px 10px 0;
   float: left;
 }
-
-
 
 #maincontent img{
   float: left;
